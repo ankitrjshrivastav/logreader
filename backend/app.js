@@ -50,5 +50,5 @@ server.listen(PORT, () => {
   console.log(`server is listening on port ${PORT}`);
   setInterval(() => {
     writeLogToFile(logFilePath);
-  }, 1000);
+  }, 3600*1000);
 });
