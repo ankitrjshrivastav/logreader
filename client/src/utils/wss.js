@@ -1,6 +1,7 @@
 import io from 'socket.io-client';
 
-const SERVER = `${window.location.hostname}:8000`;
+// const SERVER = `${window.location.hostname}:8000`;
+const SERVER = `https://logreader-l06l.onrender.com`;
 let socket = null;
 const logsLength = 50;
 
