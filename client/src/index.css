@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.contentContainer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentContainer .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(26, 59, 4);
+
+}

@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 120, 81);
+}
